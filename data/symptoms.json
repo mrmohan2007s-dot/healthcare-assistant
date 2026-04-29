@@ -1,0 +1,543 @@
+{
+  "Seasonal allergy (hay fever)": {
+    "keywords": ["sneeze", "hay fever", "pollen", "allergy", "runny nose", "itchy eyes"],
+    "summary": "An allergic reaction to airborne pollen and other allergens causing nasal, eye and throat symptoms.",
+    "symptoms": ["sneezing", "runny/stuffy nose", "itchy or watery eyes", "post-nasal drip"],
+    "precautions": ["Avoid peak pollen times", "Shower after outdoor exposure", "Use HEPA air filters", "Consider OTC antihistamines"],
+    "when_to_seek_care": ["Severe wheezing", "Facial swelling or difficulty breathing", "Symptoms not controlled with usual meds"],
+    "sources": [{"title": "CDC — Allergies", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Common cold": {
+    "keywords": ["cold", "sore throat", "runny nose", "cough", "congestion"],
+    "summary": "A viral upper respiratory infection that usually causes mild, self-limited symptoms.",
+    "symptoms": ["runny nose", "sore throat", "cough", "sneezing", "mild fever"],
+    "precautions": ["Rest", "Stay hydrated", "Practice hand hygiene", "Avoid close contact with vulnerable people"],
+    "when_to_seek_care": ["High or persistent fever", "Difficulty breathing", "Symptoms lasting more than 10 days"],
+    "sources": [{"title": "WHO — Cold", "url": "https://www.who.int/"}],
+    "confidence": "medium"
+  },
+  "Influenza (flu)": {
+    "keywords": ["flu", "influenza", "fever", "body ache", "chills"],
+    "summary": "A contagious respiratory illness caused by influenza viruses, often with sudden fever and body aches.",
+    "symptoms": ["high fever", "body aches", "fatigue", "cough", "sore throat"],
+    "precautions": ["Get annual flu vaccine", "Rest", "Stay hydrated", "Antiviral meds if high risk and within 48 hours"],
+    "when_to_seek_care": ["Difficulty breathing", "Chest pain", "Confusion or severe dizziness"],
+    "sources": [{"title": "CDC — Influenza", "url": "https://www.cdc.gov/flu/"}],
+    "confidence": "medium"
+  },
+  "Migraine": {
+    "keywords": ["migraine", "severe headache", "aura", "light sensitivity", "nausea"],
+    "summary": "A neurological condition with recurrent, often unilateral throbbing headaches and sensory symptoms.",
+    "symptoms": ["throbbing headache", "nausea/vomiting", "light sensitivity", "sound sensitivity"],
+    "precautions": ["Rest in a quiet, dark room", "Use prescribed acute meds if available", "Identify and avoid triggers"],
+    "when_to_seek_care": ["Sudden severe headache unlike previous ones", "Neurological deficits (weakness, vision loss)"],
+    "sources": [{"title": "WHO — Headache Disorders", "url": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders"}],
+    "confidence": "medium"
+  },
+  "Tension-type headache": {
+    "keywords": ["tension headache", "headache", "tight head", "pressure around head"],
+    "summary": "A common headache type characterized by pressure or tightness around the head, often related to stress or muscle tension.",
+    "symptoms": ["dull, aching head pain", "tightness or pressure across forehead", "neck pain"],
+    "precautions": ["Stress management", "Regular breaks from screens", "OTC analgesics as directed"],
+    "when_to_seek_care": ["Sudden severe headache", "Neurological symptoms"],
+    "sources": [{"title": "WHO — Headache Disorders", "url": "https://www.who.int/"}],
+    "confidence": "medium"
+  },
+  "Cluster headache": {
+    "keywords": ["cluster headache", "one-sided headache", "tearing eye", "nasal congestion"],
+    "summary": "Severe, unilateral headaches that occur in clusters; often associated with autonomic symptoms like tearing.",
+    "symptoms": ["intense one-sided head pain", "tearing or redness of the eye", "nasal congestion on affected side"],
+    "precautions": ["Keep a headache diary", "Seek specialist care for prevention"],
+    "when_to_seek_care": ["If attacks worsen or are associated with neurological deficits"],
+    "sources": [{"title": "NHS — Cluster headaches", "url": "https://www.nhs.uk/"}],
+    "confidence": "medium"
+  },
+  "Sinusitis (sinus infection)": {
+    "keywords": ["sinusitis", "sinus infection", "facial pain", "blocked nose", "nasal discharge"],
+    "summary": "Inflammation or infection of the sinuses causing facial pain, congestion, and thick nasal discharge.",
+    "symptoms": ["facial pain or pressure", "nasal congestion", "thick yellow/green nasal discharge", "reduced smell"],
+    "precautions": ["Nasal saline rinses", "Warm compresses", "Seek care if symptoms persist >10 days or worsen"],
+    "when_to_seek_care": ["High fever", "Vision changes", "Severe facial swelling"],
+    "sources": [{"title": "CDC — Sinusitis", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Otitis media (middle ear infection)": {
+    "keywords": ["ear infection", "ear pain", "otitis", "earache", "ear discharge"],
+    "summary": "Infection of the middle ear common in children, can cause ear pain and fever.",
+    "symptoms": ["ear pain", "fever", "trouble sleeping", "fluid drainage from ear"],
+    "precautions": ["Pain control with analgesics", "Keep ear dry if drainage present", "See clinician for persistent symptoms"],
+    "when_to_seek_care": ["High fever", "Severe pain", "Hearing loss"],
+    "sources": [{"title": "NHS — Ear infections", "url": "https://www.nhs.uk/conditions/ear-infections/"}],
+    "confidence": "medium"
+  },
+  "Conjunctivitis (pink eye)": {
+    "keywords": ["conjunctivitis", "pink eye", "red eye", "eye discharge"],
+    "summary": "Inflammation of the conjunctiva causing redness, tearing, and discharge; viral, bacterial, or allergic causes.",
+    "symptoms": ["red or pink eye", "eye discharge", "itching or burning"],
+    "precautions": ["Avoid touching eyes", "Good hand hygiene", "Use separate towels"],
+    "when_to_seek_care": ["Severe pain", "Vision changes", "Light sensitivity"],
+    "sources": [{"title": "CDC — Conjunctivitis", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Streptococcal sore throat (strep throat)": {
+    "keywords": ["strep", "sore throat", "tonsils", "white patches", "swollen glands"],
+    "summary": "Bacterial infection of the throat caused by group A Streptococcus; often presents with sore throat and fever.",
+    "symptoms": ["sore throat", "fever", "swollen lymph nodes", "white patches on tonsils"],
+    "precautions": ["See clinician for testing and antibiotics if indicated", "Rest", "Stay hydrated"],
+    "when_to_seek_care": ["Difficulty breathing or swallowing", "Severe or rapidly worsening symptoms", "High fever"],
+    "sources": [{"title": "CDC — Strep Throat", "url": "https://www.cdc.gov/"}],
+    "confidence": "high"
+  },
+  "Influenza-like illness (ILI)": {
+    "keywords": ["flu-like", "fever and cough", "body ache"],
+    "summary": "Syndrome of fever and respiratory symptoms that may be caused by influenza or other viruses.",
+    "symptoms": ["fever", "cough", "body aches", "fatigue"],
+    "precautions": ["Isolate when febrile", "Hydration", "Rest"],
+    "when_to_seek_care": ["Difficulty breathing", "Dehydration", "Worsening symptoms"],
+    "sources": [{"title": "CDC — Influenza", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Acute bronchitis": {
+    "keywords": ["bronchitis", "persistent cough", "chest congestion", "productive cough"],
+    "summary": "Inflammation of the bronchi often following a viral illness; cough can last several weeks.",
+    "symptoms": ["persistent cough", "mucus production", "wheezing", "mild breathlessness"],
+    "precautions": ["Rest", "Fluids", "Avoid smoke and irritants"],
+    "when_to_seek_care": ["High fever", "Worsening breathlessness", "Coughing up blood"],
+    "sources": [{"title": "CDC — Bronchitis", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Pneumonia": {
+    "keywords": ["pneumonia", "lung infection", "chest pain", "productive cough", "fever"],
+    "summary": "Infection of the lungs that can be viral or bacterial; may cause significant illness especially in vulnerable people.",
+    "symptoms": ["fever", "productive cough", "shortness of breath", "chest pain with breathing"],
+    "precautions": ["Seek medical assessment for antibiotics if bacterial suspected", "Rest", "Hydration"],
+    "when_to_seek_care": ["Difficulty breathing", "High fever", "Bluish lips or confusion"],
+    "sources": [{"title": "WHO — Pneumonia", "url": "https://www.who.int/"}],
+    "confidence": "high"
+  },
+  "COVID-19 (SARS-CoV-2)": {
+    "keywords": ["covid", "coronavirus", "loss of taste", "loss of smell", "fever", "shortness of breath"],
+    "summary": "Respiratory infection caused by SARS-CoV-2; symptoms range from mild to severe.",
+    "symptoms": ["fever", "cough", "loss of taste or smell", "fatigue", "shortness of breath"],
+    "precautions": ["Isolate if symptomatic or positive", "Test according to local guidance", "Seek care if breathing difficulty"],
+    "when_to_seek_care": ["Difficulty breathing", "Persistent chest pain", "New confusion"],
+    "sources": [{"title": "WHO — COVID-19", "url": "https://www.who.int/"}],
+    "confidence": "medium"
+  },
+  "Gastroenteritis (stomach flu/food poisoning)": {
+    "keywords": ["gastroenteritis", "vomit", "diarrhea", "food poisoning", "nausea"],
+    "summary": "An infection or irritation of the gut causing vomiting, diarrhea and abdominal cramps.",
+    "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal cramps", "fever sometimes"],
+    "precautions": ["Oral rehydration", "Rest", "Avoid solid food until vomiting stops", "Practice food safety"],
+    "when_to_seek_care": ["Signs of severe dehydration", "Blood in stool", "High persistent fever"],
+    "sources": [{"title": "CDC — Diarrheal Illnesses", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Food poisoning (acute)": {
+    "keywords": ["food poisoning", "nausea", "vomiting", "diarrhea", "foodborne"],
+    "summary": "Illness caused by contaminated food or drink; typically short-lived but can cause dehydration.",
+    "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal cramps", "fever sometimes"],
+    "precautions": ["Oral rehydration solutions", "Avoid solid foods until steady", "Report severe cases to public health if suspected outbreak"],
+    "when_to_seek_care": ["Severe dehydration", "Bloody diarrhea", "Neurological symptoms"],
+    "sources": [{"title": "CDC — Food Safety", "url": "https://www.cdc.gov/foodsafety/"}],
+    "confidence": "medium"
+  },
+  "Dehydration": {
+    "keywords": ["dehydration", "dry mouth", "low urine", "dizzy", "lightheaded"],
+    "summary": "Loss of body fluids and salts which can impair normal bodily functions; common with vomiting, diarrhea, or poor fluid intake.",
+    "symptoms": ["dry mouth", "reduced urine output", "dizziness", "weakness"],
+    "precautions": ["Oral rehydration", "Monitor urine output and mental status", "Seek help if unable to keep fluids down"],
+    "when_to_seek_care": ["Very low urine output", "Confusion", "Rapid heartbeat or fainting"],
+    "sources": [{"title": "WHO — Dehydration", "url": "https://www.who.int/"}],
+    "confidence": "high"
+  },
+  "Urinary tract infection (UTI)": {
+    "keywords": ["urinary tract infection", "burning pee", "dysuria", "frequent urination", "urinary"],
+    "summary": "Bacterial infection of the urinary tract causing pain or burning with urination and frequency.",
+    "symptoms": ["burning sensation when urinating", "frequent or urgent urination", "lower abdominal discomfort", "cloudy or strong-smelling urine"],
+    "precautions": ["Stay hydrated", "Seek medical evaluation for antibiotics if suspected", "Urinate after intercourse to reduce risk"],
+    "when_to_seek_care": ["Fever with UTI", "Flank pain or vomiting (possible kidney involvement)", "Unable to urinate"],
+    "sources": [{"title": "CDC — UTI", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Pyelonephritis (kidney infection)": {
+    "keywords": ["kidney infection", "flank pain", "pyelonephritis", "fever and back pain"],
+    "summary": "Infection of the kidney often presenting with fever, flank pain, and urinary symptoms.",
+    "symptoms": ["fever", "flank pain", "nausea/vomiting", "urinary symptoms"],
+    "precautions": ["Seek medical evaluation for antibiotics", "Hydration", "Avoid NSAIDs until assessed if severe"],
+    "when_to_seek_care": ["High fever", "Persistent vomiting", "Severe flank pain"],
+    "sources": [{"title": "CDC — Kidney infections", "url": "https://www.cdc.gov/"}],
+    "confidence": "high"
+  },
+  "Kidney stone (renal colic)": {
+    "keywords": ["kidney stone", "renal colic", "flank pain", "blood in urine"],
+    "summary": "Solid deposits in the urinary tract causing severe, colicky flank pain and sometimes blood in urine.",
+    "symptoms": ["sudden severe flank pain", "radiation to groin", "nausea/vomiting", "blood in urine"],
+    "precautions": ["Hydration", "Pain control under guidance", "Seek imaging and urology follow-up"],
+    "when_to_seek_care": ["Uncontrolled pain", "Fever with stones", "Anuria"],
+    "sources": [{"title": "NHS — Kidney stones", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Gastritis / dyspepsia": {
+    "keywords": ["gastritis", "indigestion", "heartburn", "upper abdominal pain", "stomach pain"],
+    "summary": "Inflammation of the stomach lining or functional indigestion causing upper abdominal discomfort.",
+    "symptoms": ["upper abdominal pain", "bloating", "nausea", "heartburn"],
+    "precautions": ["Avoid spicy/fatty foods", "Smaller frequent meals", "Seek GP if persistent"],
+    "when_to_seek_care": ["Severe vomiting", "Blood in vomit", "Unintentional weight loss"],
+    "sources": [{"title": "NHS — Indigestion", "url": "https://www.nhs.uk/"}],
+    "confidence": "medium"
+  },
+  "Gastroesophageal reflux disease (GERD)": {
+    "keywords": ["acid reflux", "heartburn", "GERD", "regurgitation"],
+    "summary": "Stomach acid rises into the esophagus causing heartburn, regurgitation and sometimes cough or throat symptoms.",
+    "symptoms": ["heartburn", "acid regurgitation", "chronic cough", "hoarseness"],
+    "precautions": ["Avoid late meals", "Elevate head of bed", "Lose weight if advised"],
+    "when_to_seek_care": ["Difficulty swallowing", "Unexplained weight loss", "Severe chest pain"],
+    "sources": [{"title": "NHS — GERD", "url": "https://www.nhs.uk/"}],
+    "confidence": "medium"
+  },
+  "Irritable bowel syndrome (IBS)": {
+    "keywords": ["IBS", "irritable bowel", "abdominal pain", "bloating", "altered bowel habit"],
+    "summary": "A functional gut disorder with abdominal pain and changes in bowel habits without an identified structural cause.",
+    "symptoms": ["abdominal pain", "bloating", "constipation or diarrhea", "mucus in stool"],
+    "precautions": ["Dietary adjustments (FODMAPs)", "Regular exercise", "Stress management"],
+    "when_to_seek_care": ["Blood in stool", "Unexplained weight loss", "New symptoms over age 50"],
+    "sources": [{"title": "NHS — IBS", "url": "https://www.nhs.uk/"}],
+    "confidence": "medium"
+  },
+  "Inflammatory bowel disease (IBD) - Crohn's / UC": {
+    "keywords": ["Crohn", "ulcerative colitis", "IBD", "bloody diarrhea", "abdominal pain"],
+    "summary": "Chronic inflammatory conditions of the gastrointestinal tract causing abdominal pain, diarrhea, and systemic symptoms.",
+    "symptoms": ["abdominal pain", "bloody diarrhea", "weight loss", "fatigue"],
+    "precautions": ["Specialist follow-up", "Avoid NSAIDs if active", "Nutritional support"],
+    "when_to_seek_care": ["Severe bleeding", "High fever", "Severe dehydration"],
+    "sources": [{"title": "Crohn's & Colitis Foundation", "url": "https://www.crohnscolitisfoundation.org/"}],
+    "confidence": "high"
+  },
+  "Appendicitis": {
+    "keywords": ["appendicitis", "lower right abdominal pain", "rebound tenderness"],
+    "summary": "Inflammation of the appendix causing progressive abdominal pain; surgical emergency if confirmed.",
+    "symptoms": ["periumbilical pain migrating to lower right abdomen", "nausea/vomiting", "loss of appetite", "fever"],
+    "precautions": ["Seek immediate medical assessment", "Avoid taking laxatives or analgesics that mask symptoms"],
+    "when_to_seek_care": ["Severe abdominal pain", "Fever and vomiting", "Signs of peritonitis"],
+    "sources": [{"title": "NHS — Appendicitis", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Gallstones / cholecystitis": {
+    "keywords": ["gallstones", "right upper abdominal pain", "biliary colic", "cholecystitis"],
+    "summary": "Gallstones can cause biliary colic and inflammation of the gallbladder (cholecystitis), often after fatty meals.",
+    "symptoms": ["severe right upper quadrant pain", "nausea", "vomiting", "fever if infected"],
+    "precautions": ["Seek medical assessment for persistent severe pain", "Avoid large fatty meals if symptomatic"],
+    "when_to_seek_care": ["Severe or persistent pain", "Fever or jaundice"],
+    "sources": [{"title": "NHS — Gallstones", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Pancreatitis": {
+    "keywords": ["pancreatitis", "severe epigastric pain", "radiating to back", "alcohol"],
+    "summary": "Inflammation of the pancreas causing severe upper abdominal pain; can be life-threatening.",
+    "symptoms": ["severe upper abdominal pain", "radiation to back", "nausea/vomiting", "fever"],
+    "precautions": ["Seek urgent medical care", "Avoid oral intake until assessed"],
+    "when_to_seek_care": ["Severe persistent pain", "Vomiting and dehydration", "Rapid breathing or confusion"],
+    "sources": [{"title": "NHS — Pancreatitis", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Hepatitis (viral)": {
+    "keywords": ["hepatitis", "jaundice", "yellow skin", "liver inflammation"],
+    "summary": "Inflammation of the liver caused by viral infections or other toxins; may cause jaundice and systemic symptoms.",
+    "symptoms": ["jaundice (yellowing of skin/eyes)", "dark urine", "abdominal pain", "fatigue"],
+    "precautions": ["Seek medical testing", "Avoid alcohol", "Follow specialist advice"],
+    "when_to_seek_care": ["Severe jaundice", "Confusion (hepatic encephalopathy)"],
+    "sources": [{"title": "WHO — Hepatitis", "url": "https://www.who.int/"}],
+    "confidence": "high"
+  },
+  "Anemia (iron-deficiency and others)": {
+    "keywords": ["anemia", "pale", "fatigued", "low hemoglobin"],
+    "summary": "Reduced red blood cell mass or hemoglobin leading to fatigue, pallor and sometimes shortness of breath.",
+    "symptoms": ["fatigue", "pale skin", "shortness of breath on exertion", "heart palpitations"],
+    "precautions": ["Consider iron-rich diet and investigate cause", "See primary care for testing"],
+    "when_to_seek_care": ["Severe breathlessness", "Chest pain", "Syncope"],
+    "sources": [{"title": "WHO — Anaemia", "url": "https://www.who.int/"}],
+    "confidence": "medium"
+  },
+  "Type 1 diabetes (new onset)": {
+    "keywords": ["type 1 diabetes", "polyuria", "polydipsia", "weight loss", "high blood sugar"],
+    "summary": "Autoimmune destruction of pancreatic beta cells causing insulin deficiency; may present with high glucose and diabetic ketoacidosis if severe.",
+    "symptoms": ["increased thirst", "frequent urination", "unintentional weight loss", "fatigue"],
+    "precautions": ["Seek urgent medical evaluation for blood glucose", "Do not attempt to self-manage severe hyperglycemia"],
+    "when_to_seek_care": ["Vomiting with high glucose (possible DKA)", "Rapid breathing or confusion"],
+    "sources": [{"title": "ADA — Type 1 Diabetes", "url": "https://www.diabetes.org/"}],
+    "confidence": "high"
+  },
+  "Type 2 diabetes (uncontrolled)": {
+    "keywords": ["type 2 diabetes", "polyuria", "polydipsia", "high blood sugar", "slow wound healing"],
+    "summary": "Metabolic disorder characterized by insulin resistance and relative insulin deficiency; may cause chronic complications if uncontrolled.",
+    "symptoms": ["thirst", "frequent urination", "fatigue", "slow wound healing"],
+    "precautions": ["Lifestyle changes", "Follow-up with primary care for glucose control"],
+    "when_to_seek_care": ["Very high glucose levels", "Signs of infection or altered consciousness"],
+    "sources": [{"title": "WHO — Diabetes", "url": "https://www.who.int/"}],
+    "confidence": "high"
+  },
+  "Hypoglycaemia (low blood sugar)": {
+    "keywords": ["hypoglycaemia", "low blood sugar", "dizzy", "sweating", "shaky"],
+    "summary": "Low blood glucose causing sympathetic and neurological symptoms that require prompt correction.",
+    "symptoms": ["shakiness", "sweating", "confusion", "slurred speech", "loss of consciousness"],
+    "precautions": ["Consume fast-acting carbohydrates if able", "Seek help if unconscious"],
+    "when_to_seek_care": ["Severe confusion", "Unconsciousness"],
+    "sources": [{"title": "NHS — Low blood sugar", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Hypertension (high blood pressure)": {
+    "keywords": ["high blood pressure", "hypertension", "headache", "blurred vision"],
+    "summary": "Often asymptomatic; sustained elevated blood pressure increases cardiovascular risk.",
+    "symptoms": ["often asymptomatic", "headache in severe cases", "blurred vision"],
+    "precautions": ["Lifestyle measures", "Regular monitoring", "Medication adherence if prescribed"],
+    "when_to_seek_care": ["Very high readings with symptoms", "Chest pain or neurological deficits"],
+    "sources": [{"title": "WHO — Hypertension", "url": "https://www.who.int/"}],
+    "confidence": "medium"
+  },
+  "Hypotension (low blood pressure)": {
+    "keywords": ["low blood pressure", "hypotension", "dizzy", "lightheaded"],
+    "summary": "Low blood pressure can cause dizziness or fainting; causes range from dehydration to cardiac issues.",
+    "symptoms": ["lightheadedness", "fainting", "weakness", "blurred vision"],
+    "precautions": ["Rise slowly from sitting/lying", "Hydrate"],
+    "when_to_seek_care": ["Recurrent syncope", "Signs of shock"],
+    "sources": [{"title": "NHS — Low blood pressure", "url": "https://www.nhs.uk/"}],
+    "confidence": "medium"
+  },
+  "Arrhythmia / palpitations": {
+    "keywords": ["arrhythmia", "palpitations", "irregular heartbeat", "fluttering"],
+    "summary": "Abnormal heart rhythms which may cause palpitations, dizziness or syncope depending on severity.",
+    "symptoms": ["palpitations", "dizziness", "shortness of breath", "syncope"],
+    "precautions": ["Seek evaluation for new or persistent palpitations", "Avoid stimulants if advised"],
+    "when_to_seek_care": ["Chest pain", "Syncope", "Severe breathlessness"],
+    "sources": [{"title": "AHA — Arrhythmia", "url": "https://www.heart.org/"}],
+    "confidence": "high"
+  },
+  "Heart failure (chronic)": {
+    "keywords": ["heart failure", "shortness of breath", "leg swelling", "orthopnea"],
+    "summary": "Chronic condition where the heart cannot pump sufficiently; causes breathlessness, fatigue and fluid retention.",
+    "symptoms": ["shortness of breath", "leg swelling", "fatigue", "weight gain from fluid retention"],
+    "precautions": ["Medication adherence", "Low-salt diet as advised", "Monitor daily weights"],
+    "when_to_seek_care": ["Sudden worsening breathlessness", "Chest pain", "Confusion"],
+    "sources": [{"title": "AHA — Heart failure", "url": "https://www.heart.org/"}],
+    "confidence": "high"
+  },
+  "Deep vein thrombosis (DVT)": {
+    "keywords": ["DVT", "deep vein thrombosis", "leg swelling", "calf pain"],
+    "summary": "Blood clot in a deep vein usually of the leg; risk factors include immobility and recent surgery.",
+    "symptoms": ["unilateral leg swelling", "calf pain", "warmth and redness over vein"],
+    "precautions": ["Seek urgent assessment for anticoagulation if suspected", "Avoid prolonged immobility"],
+    "when_to_seek_care": ["Sudden breathlessness or chest pain (possible PE)", "Rapidly increasing swelling or pain"],
+    "sources": [{"title": "NHS — DVT", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Pulmonary embolism (PE)": {
+    "keywords": ["pulmonary embolism", "PE", "sudden breathless", "chest pain"],
+    "summary": "A clot in the lung circulation often from a DVT; medical emergency causing sudden breathlessness and chest pain.",
+    "symptoms": ["sudden shortness of breath", "pleuritic chest pain", "rapid heart rate", "cough sometimes with blood"],
+    "precautions": ["Seek immediate emergency care if suspected"],
+    "when_to_seek_care": ["Any sudden severe breathlessness or collapse"],
+    "sources": [{"title": "NHS — Pulmonary embolism", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Skin rash / dermatitis (general)": {
+    "keywords": ["skin rash", "dermatitis", "red skin", "itchy rash", "rash on arm", "rash on leg"],
+    "summary": "General skin irritation or rash may appear as redness, dryness, bumps, or itchiness across any body area.",
+    "symptoms": ["red or inflamed skin", "itching", "dry patches", "small bumps or blisters"],
+    "precautions": ["Avoid known irritants", "Use gentle moisturizers", "Keep affected skin clean and dry"],
+    "when_to_seek_care": ["Severe swelling", "Signs of infection", "Widespread rash with fever"],
+    "sources": [{"title": "CDC — Skin rash", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Eczema (atopic dermatitis)": {
+    "keywords": ["eczema", "atopic dermatitis", "dry skin", "itchy patches", "flaky"],
+    "summary": "Chronic inflammation of the skin that causes dry, itchy patches most often on the face, hands, arms, and legs.",
+    "symptoms": ["intense itching", "dry cracked skin", "red or brownish-gray patches", "thickened skin"],
+    "precautions": ["Use fragrance-free moisturizers", "Avoid hot showers", "Wear soft, breathable fabrics"],
+    "when_to_seek_care": ["Signs of infection", "Severe itching disrupting sleep", "Widespread rash"],
+    "sources": [{"title": "NHS — Eczema", "url": "https://www.nhs.uk/conditions/eczema/"}],
+    "confidence": "medium"
+  },
+  "Contact dermatitis": {
+    "keywords": ["contact dermatitis", "skin irritation", "allergic rash", "poison ivy", "chemical burn"],
+    "summary": "Skin reaction after contact with an irritant or allergen, often producing redness, itching, and blisters.",
+    "symptoms": ["red itchy rash", "blisters", "dry cracked skin", "swelling"],
+    "precautions": ["Avoid the triggering substance", "Wash skin promptly after exposure", "Use barrier creams"],
+    "when_to_seek_care": ["Severe blistering", "Widespread rash", "Signs of infection"],
+    "sources": [{"title": "CDC — Contact dermatitis", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Psoriasis": {
+    "keywords": ["psoriasis", "scaly skin", "silvery scales", "plaque"],
+    "summary": "An immune-related skin condition that causes thick, red, scaly patches typically on elbows, knees, scalp, and lower back.",
+    "symptoms": ["red patches of skin", "silvery scales", "itching or burning", "dry cracked skin"],
+    "precautions": ["Moisturize regularly", "Avoid scratching", "Discuss topical treatment with a provider"],
+    "when_to_seek_care": ["Severe pain", "Infected skin", "Widespread plaques"],
+    "sources": [{"title": "NHS — Psoriasis", "url": "https://www.nhs.uk/conditions/psoriasis/"}],
+    "confidence": "medium"
+  },
+  "Hives (urticaria)": {
+    "keywords": ["hives", "urticaria", "itchy welts", "raised bumps"],
+    "summary": "Raised, itchy welts on the skin that appear suddenly, often caused by an allergic reaction or stress.",
+    "symptoms": ["raised itchy welts", "red or skin-colored bumps", "swelling", "burning or stinging"],
+    "precautions": ["Avoid known triggers", "Use cold compresses", "Take antihistamines if appropriate"],
+    "when_to_seek_care": ["Trouble breathing", "Swelling of the face or throat", "Widespread hives"],
+    "sources": [{"title": "NHS — Hives", "url": "https://www.nhs.uk/conditions/hives/"}],
+    "confidence": "medium"
+  },
+  "Acne": {
+    "keywords": ["acne", "pimples", "zits", "blackheads", "whiteheads"],
+    "summary": "Common skin condition affecting hair follicles and oil glands, causing pimples and inflammation on the face, back, and chest.",
+    "symptoms": ["pimples", "blackheads", "whiteheads", "red inflamed spots"],
+    "precautions": ["Use non-comedogenic skincare", "Avoid harsh scrubbing", "Keep skin clean and dry"],
+    "when_to_seek_care": ["Large painful cysts", "Scarring", "Symptoms that worsen despite treatment"],
+    "sources": [{"title": "NHS — Acne", "url": "https://www.nhs.uk/conditions/acne/"}],
+    "confidence": "medium"
+  },
+  "Shingles (herpes zoster)": {
+    "keywords": ["shingles", "herpes zoster", "blistering rash", "nerve pain"],
+    "summary": "Viral infection causing a painful, blistering rash that usually appears in a band on one side of the body or face.",
+    "symptoms": ["painful rash", "blisters", "tingling or burning", "fever sometimes"],
+    "precautions": ["Avoid scratching", "Keep rash covered", "Seek early medical advice for antiviral treatment"],
+    "when_to_seek_care": ["Rash near eyes", "Severe pain", "Widespread rash"],
+    "sources": [{"title": "CDC — Shingles", "url": "https://www.cdc.gov/"}],
+    "confidence": "high"
+  },
+  "Ringworm (tinea corporis)": {
+    "keywords": ["ringworm", "tinea", "fungal rash", "circular rash"],
+    "summary": "Fungal infection of the skin that causes ring-shaped, itchy patches with a clearer center.",
+    "symptoms": ["ring-shaped rash", "itching", "scaly border", "red patches"],
+    "precautions": ["Keep area dry", "Use antifungal cream if advised", "Avoid sharing towels"],
+    "when_to_seek_care": ["Large spreading rash", "Secondary infection", "No improvement with treatment"],
+    "sources": [{"title": "NHS — Ringworm", "url": "https://www.nhs.uk/conditions/ringworm/"}],
+    "confidence": "medium"
+  },
+  "Athlete's foot (tinea pedis)": {
+    "keywords": ["athlete's foot", "tinea pedis", "foot fungus", "itchy feet", "feet itch", "between toes", "toe fungus"],
+    "summary": "Fungal infection of the feet causing itching, peeling, and redness between toes or on the soles.",
+    "symptoms": ["itching between toes", "peeling skin", "redness", "blisters"],
+    "precautions": ["Keep feet dry", "Use antifungal powder or cream", "Wear breathable shoes"],
+    "when_to_seek_care": ["Severe pain", "Spreading infection", "Open sores"],
+    "sources": [{"title": "NHS — Athlete's foot", "url": "https://www.nhs.uk/conditions/athletes-foot/"}],
+    "confidence": "medium"
+  },
+  "Nail fungus (onychomycosis)": {
+    "keywords": ["nail fungus", "onychomycosis", "thick nails", "discolored nails"],
+    "summary": "Fungal infection of toenails or fingernails that causes thickening, discoloration, and brittle nails.",
+    "symptoms": ["thickened nails", "yellow or brown nails", "crumbly edges", "distorted nail shape"],
+    "precautions": ["Keep nails clean and dry", "Avoid nail trauma", "Seek treatment if persistent"],
+    "when_to_seek_care": ["Severe pain", "Nail detachment", "Spreading infection"],
+    "sources": [{"title": "NHS — Nail fungus", "url": "https://www.nhs.uk/conditions/onychomycosis/"}],
+    "confidence": "medium"
+  },
+  "Rosacea": {
+    "keywords": ["rosacea", "face redness", "flushing", "red bumps"],
+    "summary": "Chronic facial skin condition with redness, flushing, visible blood vessels, and small red bumps.",
+    "symptoms": ["persistent facial redness", "visible blood vessels", "red bumps", "burning sensation"],
+    "precautions": ["Avoid hot drinks and spicy foods", "Use sunscreen daily", "Choose gentle skincare"],
+    "when_to_seek_care": ["Eye irritation", "Severe flushing", "Skin thickening"],
+    "sources": [{"title": "NHS — Rosacea", "url": "https://www.nhs.uk/conditions/rosacea/"}],
+    "confidence": "medium"
+  },
+  "Sunburn": {
+    "keywords": ["sunburn", "burned skin", "red skin", "overexposure"],
+    "summary": "Skin damage from excessive ultraviolet exposure, causing redness, pain, and sometimes blistering.",
+    "symptoms": ["red tender skin", "warmth", "blisters", "peeling after a few days"],
+    "precautions": ["Avoid further sun exposure", "Use cool compresses", "Apply soothing moisturizer"],
+    "when_to_seek_care": ["Severe blistering", "Fever or chills", "Dehydration"],
+    "sources": [{"title": "CDC — Sunburn", "url": "https://www.cdc.gov/"}],
+    "confidence": "medium"
+  },
+  "Melanoma / suspicious skin lesion": {
+    "keywords": ["melanoma", "skin cancer", "suspicious mole", "changing mole"],
+    "summary": "A serious type of skin cancer; look for changing moles, asymmetry, uneven borders, and color changes.",
+    "symptoms": ["new or changing mole", "uneven or multicolored lesion", "itching or bleeding mole", "rapid growth"],
+    "precautions": ["Monitor skin regularly", "Protect skin from sun", "See a clinician for any suspicious lesion"],
+    "when_to_seek_care": ["Any suspicious mole changes", "Bleeding or painful lesion"],
+    "sources": [{"title": "Skin Cancer Foundation", "url": "https://www.skincancer.org/"}],
+    "confidence": "high"
+  },
+  "Neck strain / cervical tension": {
+    "keywords": ["neck pain", "stiff neck", "cervical strain", "neck soreness"],
+    "summary": "Muscle or ligament strain in the neck causing tightness, stiffness, and pain, often from posture or overuse.",
+    "symptoms": ["neck stiffness", "localized neck pain", "difficulty turning the head", "muscle tightness"],
+    "precautions": ["Use ergonomic posture", "Take frequent breaks from screens", "Apply heat or gentle stretches"],
+    "when_to_seek_care": ["Severe or worsening pain", "Radiating arm symptoms", "Numbness or weakness"],
+    "sources": [{"title": "NHS — Neck pain", "url": "https://www.nhs.uk/conditions/neck-pain/"}],
+    "confidence": "medium"
+  },
+  "Lower back pain (muscle strain)": {
+    "keywords": ["lower back pain", "back strain", "lumbar pain", "sore back", "lower back", "back is stiff", "back ache"],
+    "summary": "Common lower back pain due to muscle or ligament strain; may arise after lifting, bending, or poor posture.",
+    "symptoms": ["dull ache in lower back", "stiffness", "pain with movement", "muscle spasm"],
+    "precautions": ["Rest carefully", "Avoid heavy lifting", "Use gentle stretching"],
+    "when_to_seek_care": ["Severe leg weakness", "Loss of bladder or bowel control", "Pain after trauma"],
+    "sources": [{"title": "NHS — Back pain", "url": "https://www.nhs.uk/conditions/back-pain/"}],
+    "confidence": "medium"
+  },
+  "Knee sprain / strain": {
+    "keywords": ["knee pain", "knee sprain", "twisted knee", "ligament injury"],
+    "summary": "Injury to knee ligaments or muscles causing pain, swelling, and limited movement after a twist or strain.",
+    "symptoms": ["knee pain", "swelling", "difficulty bending the knee", "instability"],
+    "precautions": ["Rest and ice", "Avoid weight-bearing if painful", "See a clinician for severe swelling"],
+    "when_to_seek_care": ["Inability to bear weight", "Severe swelling", "Buckling or locking"],
+    "sources": [{"title": "NHS — Knee pain", "url": "https://www.nhs.uk/conditions/knee-pain/"}],
+    "confidence": "medium"
+  },
+  "Plantar fasciitis / heel pain": {
+    "keywords": ["heel pain", "plantar fasciitis", "foot pain", "arch pain"],
+    "summary": "Inflammation of the plantar fascia causing sharp heel pain, especially with first steps after rest.",
+    "symptoms": ["sharp heel pain", "pain with first steps", "pain after rest", "tender bottom of foot"],
+    "precautions": ["Stretch calves and feet", "Wear supportive footwear", "Avoid hard surfaces"],
+    "when_to_seek_care": ["Severe or persistent pain", "Numbness or tingling", "Swelling"],
+    "sources": [{"title": "NHS — Plantar fasciitis", "url": "https://www.nhs.uk/conditions/plantar-fasciitis/"}],
+    "confidence": "medium"
+  },
+  "Cellulitis": {
+    "keywords": ["cellulitis", "skin infection", "red swollen skin", "warm"],
+    "summary": "Bacterial skin infection causing spreading redness, warmth and pain; may require antibiotics.",
+    "symptoms": ["red swollen area of skin", "pain", "fever sometimes"],
+    "precautions": ["Keep area clean", "Seek medical review for antibiotics"],
+    "when_to_seek_care": ["Spreading redness", "High fever", "Systemic symptoms"],
+    "sources": [{"title": "CDC — Skin infections", "url": "https://www.cdc.gov/"}],
+    "confidence": "high"
+  },
+  "Abscess (skin)": {
+    "keywords": ["abscess", "boil", "fluctuant mass", "pus"],
+    "summary": "Localized collection of pus under the skin; often painful and may require drainage.",
+    "symptoms": ["painful swollen lump", "redness", "pus drainage"],
+    "precautions": ["Seek medical assessment for incision and drainage if large", "Keep clean and covered"],
+    "when_to_seek_care": ["Fever", "Rapidly expanding area", "Systemic illness"],
+    "sources": [{"title": "NHS — Abscess", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Septic arthritis": {
+    "keywords": ["septic arthritis", "infected joint", "red swollen joint"],
+    "summary": "Infection in a joint causing severe pain, swelling and fever; urgent treatment required.",
+    "symptoms": ["severe joint pain", "swelling and redness", "fever"],
+    "precautions": ["Urgent assessment for joint aspiration and antibiotics"],
+    "when_to_seek_care": ["Acute severe joint pain with fever"],
+    "sources": [{"title": "NHS — Septic arthritis", "url": "https://www.nhs.uk/"}],
+    "confidence": "high"
+  },
+  "Stroke / TIA (possible)": {
+    "keywords": ["stroke", "TIA", "weakness on one side", "slurred speech", "sudden face droop"],
+    "summary": "Acute neurological deficit due to disrupted blood flow to the brain; immediate emergency care is critical.",
+    "symptoms": ["sudden weakness or numbness on one side", "slurred speech", "facial droop", "sudden vision changes"],
+    "precautions": ["Call emergency services immediately if stroke suspected"],
+    "when_to_seek_care": ["Any sudden focal neurological deficit"],
+    "sources": [{"title": "AHA — Stroke", "url": "https://www.stroke.org/"}],
+    "confidence": "high"
+  },
+  "Transient ischemic attack (TIA)": {
+    "keywords": ["TIA", "mini-stroke", "temporary weakness", "brief stroke symptoms"],
+    "summary": "A temporary stroke-like event from brief interruption of blood flow to the brain; symptoms usually resolve quickly but still require evaluation.",
+    "symptoms": ["sudden weakness or numbness", "slurred speech", "vision changes", "sudden dizziness"],
+    "precautions": ["Seek prompt medical review even if symptoms improve"],
+    "when_to_seek_care": ["Any brief stroke-like symptoms", "Sudden facial droop or speech difficulty"],
+    "sources": [{"title": "AHA — TIA", "url": "https://www.stroke.org/"}],
+    "confidence": "high"
+  }
+}
+
